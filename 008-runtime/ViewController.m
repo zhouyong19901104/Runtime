@@ -21,7 +21,7 @@
     [super viewDidLoad];
     self.persion = [[Persion alloc] init];
     self.persion.name = @"Tom";
-    NSLog(@"%@", self.persion.name);
+//    NSLog(@"%@", self.persion.name);
 }
 
 /// 1. 使用runtime改变实例成员的值
